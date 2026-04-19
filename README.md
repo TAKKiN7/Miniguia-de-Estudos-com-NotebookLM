@@ -44,3 +44,41 @@ link de acesso ao mini-guia: https://notebooklm.google.com/notebook/d23ef0eb-058
 - "Explique a importância da limpeza de dados (remoção de valores vazios e duplicatas) antes de qualquer análise preditiva no Python e como bibliotecas como Pandas tratam esses valores (NA/NaN)."
 - "Quais as vantagens de tratar os 'Dados como Produto' e como as plataformas de desenvolvedores de dados (DDPs) ajudam a padronizar esse ciclo?"
 - "Como a análise em tempo real (Real-Time Analytics) se tornou um padrão de sobrevivência em setores como varejo e logística em 2026?"
+
+
+# Glossário com termos e conceitos utilizados em Análise de Dados com Python
+
+**Este glossário reúne os principais conceitos, ferramentas e tendências abordados nos documentos, fundamentais para um analista de dados na era da Inteligência Artificial em 2026.**
+
+1 Bibliotecas e Ferramentas de Programação (Python)
+
+- Pandas: A biblioteca mais popular para manipulação de dados tabulares, essencial para lidar com DataFrames e séries temporais
+- NumPy: Base para computação numérica que fornece arrays multidimensionais e operações vetorizadas de alta performance
+- Polars: Biblioteca de análise de dados escrita em Rust, projetada para ser mais rápida que o Pandas através de processamento paralelo e lazy evaluation
+- DuckDB: Banco de dados analítico in-process que permite executar queries SQL complexas em arquivos locais com alta velocidade
+- PyArrow: Formato de dados colunar em memória que elimina gargalos ao mover dados entre diferentes bibliotecas sem necessidade de conversão
+- Scikit-learn: Ferramenta padrão para Machine Learning prático, oferecendo APIs consistentes para regressão, classificação e agrupamento
+- YData Profiling: Antigo Pandas Profiling, é utilizado para automatizar a análise exploratória de dados (EDA), gerando relatórios completos sobre distribuições e anomalias  em segundos
+- LangChain: Framework que permite integrar modelos de linguagem (LLMs), como o ChatGPT, diretamente em pipelines analíticos
+
+
+2 Conceitos de Machine Learning e Inteligência Artificial
+
+- Agentic AI (IA Agentizada): Sistemas de IA capazes de raciocinar, executar tarefas e colaborar autonomamente dentro dos fluxos de negócio, em vez de apenas reagir a comandos estáticos
+- DSLMs (Domain-Specific Language Models): Modelos de linguagem treinados especificamente em vocabulários e regras de uma indústria específica (ex: saúde ou finanças) para reduzir erros e alucinações
+- XAI (Inteligência Artificial Explicável): Métodos que visam tornar as decisões dos algoritmos compreensíveis para humanos, garantindo transparência e conformidade ética
+- Aprendizado Supervisionado: Treinamento de modelos utilizando dados rotulados para realizar predições ou classificações
+- Aprendizado Não Supervisionado: Técnica que busca identificar padrões ou grupos (clusters) em dados que não possuem rótulos pré-definidos
+- Random Forest: Algoritmo baseado em múltiplas árvores de decisão que compensam os erros umas das outras para gerar uma predição final mais robusta
+- LightGBM (LGBM): Implementação eficiente de Gradient Boosting que se destaca por capturar padrões complexos e ser mais rápida que modelos tradicionais
+- Overfitting: Fenômeno em que o modelo se "ajusta demais" aos dados de treino, perdendo a capacidade de generalizar para dados novos
+
+
+3 Processos e Estratégia de Dados
+
+- Limpeza de Dados: Etapa crítica do pré-processamento que envolve o tratamento de valores ausentes, duplicatas e inconsistências para garantir a qualidade da análise
+- Feature Engineering: Processo de criação de novas variáveis a partir de dados brutos para melhorar a performance de modelos preditivos
+- Dados como Produto: Mentalidade que trata os dados como ativos vivos, com donos definidos, SLAs (acordos de nível de serviço) e propósito claro de negócio
+- Governança de Dados: Conjunto de regras e processos que garante a segurança, privacidade e qualidade das informações, servindo como acelerador para projetos de IA
+- Viés Algorítmico: Problema ético onde a IA absorve e replica preconceitos humanos presentes nos dados de treinamento, como estereótipos de raça ou gênero
+- Real-Time Analytics: Capacidade de analisar dados e gerar insights no momento exato em que o fato ocorre, tornando-se um padrão de competitividade em 2026
